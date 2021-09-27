@@ -26,31 +26,26 @@ body {
     padding-top: 5px;
 }
 
-.blog_post {
+.post_content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: aquamarine;
-    /* min-width: none; */
     width: 75%;
     max-width: 1000px;
     margin-bottom: 50px;
 }
 
-.blog_post>a {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.5rem;
-    padding-top: 10px;
+.post_content>h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(0, 68, 119);
+    padding-left: 50px;
+    margin-bottom: 0;
 }
 
-.blog_post>h3 {
-    font-family: 'Work Sans', sans-serif;
-    text-align: center;
-    padding: 0px 15px 0px 15px;
-    color: darkslategray;
-}
-
-.blog_spacer {
-    min-height: 30px;
+.post_content>p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    padding: 5px 50px 5px 50px;
 }
